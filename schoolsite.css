@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("building.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    background-color:rgba(7, 166, 206, 0.5);
+    text-align: center;
+    padding: 15px;
+    font-size: 60px;
+    box-shadow: 0 0 10px black; 
+    border-radius: 10px;
+}
+.info{
+    padding: 10px;
+    text-align: center;
+    background:linear-gradient(45deg,rgba(7, 166, 206, 0.5),rgba(231, 237, 245, 1.0),rgba(7, 166, 206, 0.5));
+    width:350px;
+    height: 400px;
+    margin-left: 600px;
+    font-size: larger;
+    margin-top: 50px;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+}
+
+.nav{
+    background:rgba(231, 237, 245, 0.8);
+    padding: 18px;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top:0;
+    border-radius: 10px;
+}
+.nav a{
+    color: red;
+    text-decoration: none;
+    padding: 5px 116px;
+    display: inline-block;
+    font-size: larger;
+}
+.nav a:hover{
+    background-color:hotpink;
+    border-radius: 15px;
+    box-shadow: 0 0 10px blue;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+input{
+    margin:10px;
+    text-align: center;
+    align-items: center;
+}
+label{
+    margin-top: 10px;
+}
+p{
+    color: black;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+select{
+    margin: 10px;
+}
+#courses{
+    border-radius: 10px;
+    color: red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#courses p{
+    color: white;
+    text-align: center;
+}
+.foot {
+    margin-bottom: 0;
+    background-color: rgba(231, 237, 245, 0.8);
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+#about-us a{
+    color: red;
+}
+
