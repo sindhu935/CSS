@@ -1,0 +1,40 @@
+.content{
+    width: 200px;
+    height: 200px;
+    background: red;
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    animation: 5s linear 0s infinite running myColor;
+    box-shadow: 10px 5px 10px black;
+    border-radius: 5px;
+}
+.content:hover{
+}
+.content:active{
+}
+@keyframes mySlide{
+    from{margin-left:100%;}
+    to{margin-left:0%;}
+}
+
+@keyframes myRotate{
+    /*100%{transform:rotateX(360deg)}
+    100%{transform:rotateY(360deg)} */
+    100%{transform:rotateZ(360deg)}
+}
+@keyframes myOpacity{
+    50%{opacity:0;}
+}
+@keyframes myScale{
+    50%{transform:scale(0.5, 0.5);}
+}
+@keyframes myColor{
+    0%{background-color: red;}
+    20%{background-color: blue;}
+    40%{background-color: violet;}
+    60%{background-color: green;}
+    80%{background-color: yellow;}
+    100%{background-color: skyblue;}
+}
